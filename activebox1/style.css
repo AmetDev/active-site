@@ -743,3 +743,27 @@ p {
 .modal--visible {
 	display: block;
 }
+
+/*popup-burger*/
+
+.popup {
+   z-index: 1010;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: -100;
+   display: none;
+   position: fixed;
+   background-color: #222;
+   opacity: 0.8;
+   transition: all 0.5s ease-in-out;
+}
+
+.visible-popup {
+   left: 0;
+   display: flex;
+
+}
+
+.popup_inner {
+}

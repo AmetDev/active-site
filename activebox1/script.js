@@ -13,3 +13,9 @@ Overlay.addEventListener("click", function(e) {
     }
     
 })
+
+const Popup = document.querySelector(".popup")
+const BurgerBtn = document.querySelector(".burger")
+BurgerBtn.addEventListener("click", function() {
+	Popup.classList.add("visible-popup")
+})
