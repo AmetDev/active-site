@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="settings.css" /> -->
     <meta name="viewoprt" content="width=device-width, initial-scale=1" />
     <title>ActiveBox</title>
   </head>
@@ -59,9 +60,14 @@
           </nav>
 
           <button class="burger" type="button">
-            <span class="burger__item">Menu</span>
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
+            <span class="burger__item"></span>
           </button>
         </div>
+    	<div class="popup">
+		    <div class="popup_inner"></div>
+    	</div>
       </div>
     </header>
 
@@ -83,7 +89,10 @@
           <div class="modals">
             <div class="modal-overlay ">
               <div class="modal modal--1 " data-target="form-popup">
-                Окно 1
+                <div class="header_popup"><button id="BtnModal">&times;</button></div>
+                <div class="content_popup">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vitae? Optio commodi explicabo accusamus omnis vitae aspernatur laudantium repellendus? Sequi odio voluptates doloribus velit distinctio at maxime voluptatum illo adipisci.
+                </div>
               </div>
             </div>
           </div>
@@ -397,7 +406,7 @@
         <div class="download__text">
           <p>Fusce dapibus, tellus ac cursus commodo</p>
         </div>
-        <a class="btn btn--red btn--long" href="#">Download Here</a>
+        <a class="btn btn--red btn--long" href="img/for-client.jpg" download>Download Here</a>
       </div>
       <!--/.container -->
     </div>
